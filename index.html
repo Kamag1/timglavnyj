@@ -28,6 +28,7 @@
             <ul>
                 <li><a href="#intro">Введение</a></li>
                 <li><a href="#info">Информация</a></li>
+                <li><a href="#feedback">Обратная информация</a></li>
             </ul>
         </nav>
     </header>
@@ -52,6 +53,36 @@
                 <li><a href="article3.html">Интересные факты</a></li>
                 <li><a href="article4.html">Список терминов</a></li>
             </ol>
+        </section>
+
+        <section id="feedback">
+            <h2>Обратная информация</h2>
+            <form action="" id="contact-form">                
+                <div class="form_item">
+                    <label for="topic">Тема</label><br>
+                    <select name="topic" id="topic">
+                        <option value="1">Заказать услугу</option>
+                        <option value="2">Оставить отзыв/замечание</option>
+                        <option value="3">Предложить сотрудничество</option>
+                        <option value="4">Другое</option>
+                    </select>
+                </div>
+                <div class="form_item">
+                    <label for="name">Имя</label><br>
+                    <input name="name" id="name" type="text">
+                </div>
+                <div class="form_item">
+                    <label for="email">E-mail</label><br>
+                    <input name="email" id="email" type="text">
+                </div>
+                <div class="form_item">
+                    <label for="textarea">Текст сообщения</label><br>
+                    <textarea id="textarea" rows="10"></textarea>
+                </div>
+                <div class="form_item">
+                    <input type="submit">
+                </div>
+            </form>
         </section>
     </main>
 
